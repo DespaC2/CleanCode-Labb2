@@ -1,6 +1,6 @@
-using CleanCode_Labb2.Data;
-using CleanCode_Labb2.Interfaces;
-using CleanCode_Labb2.Repositories;
+using BookService.Data;
+using BookService.Interfaces;
+using BookService.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 

@@ -1,5 +1,5 @@
-﻿namespace CleanCode_Labb2.Models
-{
+﻿namespace BookService.Models
+{   
     public class Books
     {
         public int Id { get; set; }

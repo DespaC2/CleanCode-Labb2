@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace CleanCode_Labb2.Migrations
+namespace BookService.Migrations
 {
     /// <inheritdoc />
     public partial class initialmigration : Migration

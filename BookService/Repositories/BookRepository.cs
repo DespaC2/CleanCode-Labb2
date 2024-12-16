@@ -1,9 +1,9 @@
-﻿using CleanCode_Labb2.Data;
-using CleanCode_Labb2.Interfaces;
-using CleanCode_Labb2.Models;
+﻿using BookService.Data;
+using BookService.Interfaces;
+using BookService.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace CleanCode_Labb2.Repositories
+namespace BookService.Repositories
 {
     public class BookRepository : IBookRepository
     {

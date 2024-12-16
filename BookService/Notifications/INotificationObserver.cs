@@ -1,6 +1,6 @@
-﻿using CleanCode_Labb2.Models;
+﻿using BookService.Models;
 
-namespace CleanCode_Labb2.Notifications
+namespace BookService.Notifications
 {
     public interface INotificationObserver
     {

@@ -1,7 +1,7 @@
-﻿using CleanCode_Labb2.Models;
+﻿using BookService.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace CleanCode_Labb2.Interfaces
+namespace BookService.Interfaces
 {
     public interface IBookDbContext
     {

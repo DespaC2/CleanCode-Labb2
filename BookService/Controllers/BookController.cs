@@ -1,5 +1,5 @@
-﻿using CleanCode_Labb2.Interfaces;
-using CleanCode_Labb2.Models;
+﻿using BookService.Interfaces;
+using BookService.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
