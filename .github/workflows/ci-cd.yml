@@ -2,8 +2,7 @@ name: Build and Deploy OrderService
 
 on:
   push:
-    branches:
-      
+    branches:  
 - master
 pull_request:
   branches:
