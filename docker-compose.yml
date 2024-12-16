@@ -10,10 +10,8 @@ services:
     volumes:
       - sqlserver_data:/var/opt/mssql # Persist database data in a volume
 
-  bookingserviceapi:
-    build:
-      context: . # Build the Docker image from the current directory
-      dockerfile: BookService/Dockerfile # Path to your Dockerfile
+  bookserviceapi:
+    image: despac2/bookservice:v20241216120619
     container_name: BookService
     ports:
       - "8080:8080" # Expose your API on port 8080
